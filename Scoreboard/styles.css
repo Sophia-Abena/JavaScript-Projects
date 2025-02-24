@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1B4D3E;
+    color: aliceblue;
+    
+}
+
+.main-board{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F1E3D3;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.header-text{
+    font-size: 43px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+
+/* Team names */
+h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #384B70;
+    font-weight: 800;
+}
+
+/* The scores paragraph */
+p{
+    padding: 15px;
+    font-size: 80px;
+    background-color:  #690B22;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 8px;
+    margin: 10px 0;
+                                                
+}
+
+/* Buttom for adding points */
+button{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin-top: 30px;
+    padding: 9px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #E07A5F;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;                                            
+}
+
+button:hover{
+    background-color: #d03d14;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  
+}
+
+/* Reset button */
+button[type= reset]{
+    background-color: red;
+    font-family: "Roboto", serif;
+    font-size: 24px;
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+/* Minus button */
+.minus-btn{
+    font-family: "Roboto", serif;
+    background-color:  #054585;
+    font-weight: bold;
+}
+
+.minus-btn:hover{
+    background-color: #001F3F;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); 
+    
+}
