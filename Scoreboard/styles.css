@@ -91,10 +91,38 @@ button[type= reset]{
     font-family: "Roboto", serif;
     background-color:  #054585;
     font-weight: bold;
+    font-size: 13px;
 }
 
 .minus-btn:hover{
     background-color: #001F3F;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); 
     
+}
+
+@media screen and (max-width: 600px) {
+    h2{
+        font-size: 27px;
+        margin-bottom: 6px;
+    }
+
+    .main-board{
+        width: 300px;
+    }
+
+    .header-text{
+        font-size: 30px;
+    }
+
+    p{
+        padding: 8px;
+        font-size: 48px;
+    }
+
+    button{
+        margin-top: 18px;
+        padding: 4px;
+        font-size: 13px;
+    }
+
 }

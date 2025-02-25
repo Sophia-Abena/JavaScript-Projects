@@ -12,7 +12,6 @@ const increaseCount = (team, point) =>{
     }else if (team === "away") {
         awayCount += point;
         awayScoreEl.innerText = awayCount;
-        awayScoreEl.style.color ='#FFD700'
     }
     determineLeadingScore();
 }
@@ -25,7 +24,6 @@ const decreaseCountByOne = (team) =>{
     }else if (team === "away") {
         awayCount -= 1;
         awayScoreEl.innerText = awayCount;
-        awayScoreEl.style.color = '#FFD700'
     }
     determineLeadingScore();
 }
