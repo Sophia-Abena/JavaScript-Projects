@@ -59,8 +59,8 @@ button{
 
 @media screen and (max-width: 600px) {
     .game-content{
-       width: 380px;
-       height: 280px;
+       width: 320px;
+       height: 250px;
         
     }
 
