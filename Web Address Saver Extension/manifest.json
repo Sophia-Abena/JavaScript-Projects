@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Web Address Saver",
+    "description": "A simple Chrome extension.",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": ["tabs"],
+    "icons": {
+    "48": "icon.png"
+    }
+}
